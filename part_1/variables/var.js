@@ -1,8 +1,9 @@
+//https://learn.javascript.ru/variables#tasks
 "use strict";
 let admin;
-let Name='John';
-admin=Name;
+let name='John';
+admin=name;
 alert(admin);
-//planetEarth
+//planet
 //currentUser
 //для birthday можно использовать, потому что не будет меняться, а для age нельзя
