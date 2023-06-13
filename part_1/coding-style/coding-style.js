@@ -9,11 +9,13 @@ function pow(x, n) {
   return result;
 }
 
-let x = prompt("x?", ''), n = prompt("n?", '');
+let x = prompt("x?", '');
+let n = prompt("n?", '');
 
 if (n <= 0) {
   alert(`Степень ${n} не поддерживается,
    введите целую степень, большую 0`);
 }
 
-alert(pow(x,n));
+const result = pow(x,n);
+alert(result);
