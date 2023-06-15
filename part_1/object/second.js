@@ -3,7 +3,7 @@
 let obj = {
     name: fff,
 };
-function isEmpty(obj) {
+const isEmpty = obj => {
     for (let key in obj) {
         return false;
     }
