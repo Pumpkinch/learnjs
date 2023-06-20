@@ -1,5 +1,5 @@
 // https://learn.javascript.ru/object-methods#ispolzovanie-this-v-literale-obekta
-function makeUser() {
+let makeUser = () => {
     return {
         name: "John",
         ref: this
