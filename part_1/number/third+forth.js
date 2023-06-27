@@ -6,7 +6,7 @@ let readNumber = () => {
         a = +prompt('Введите значение');
     } while (!isFinite(a));
 
-    if (a === '' || a === null) return null;
+    if (a === 0 || a === null) return null;
     return +a;
 }
 alert(readNumber());
