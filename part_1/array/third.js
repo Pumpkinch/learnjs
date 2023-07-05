@@ -2,7 +2,7 @@
 const sumInput = () => {
     let arr = [];
 
-    while (true) {
+    while (isFinite) {
         let item = prompt('Введите число', 0);
         if (item === null || !isFinite(item)) break;
         arr.push(+item);
